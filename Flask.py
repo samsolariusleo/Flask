@@ -34,13 +34,13 @@ def login_required(test):
 def logout():
     session.pop('logged_in', None)
     flash('You were logged out')
-    return redirect(url_for('log'))
+    return redirect (url_for('log'))
 
 @app.route('/hello')
 @login_required
 def hello():
-    g.db = connect_db()
-    cur = g.db.execute('SELECT rep_name, amount FROM reps')
+    g.db  = connect_db()
+    cur = g.db.execute('select rep_name, amount from reps')
     sales = [dict(rep_name=row[0], amount=row[1]) for row in cur.fetchall()]
     g.db.close()
     return render_template('hello.html', sales=sales)

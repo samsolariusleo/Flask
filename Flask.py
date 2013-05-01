@@ -2,7 +2,7 @@ from flask import *
 from functools import wraps
 import sqlite3
 
-DATABASE = 'sales.db'
+DATABASE = 'flasktask.db'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -36,14 +36,12 @@ def logout():
     flash('You were logged out')
     return redirect (url_for('log'))
 
-@app.route('/hello')
+@app.route('/tasks')
 @login_required
-def hello():
+def tasks():
     g.db  = connect_db()
-    cur = g.db.execute('select rep_name, amount from reps')
-    sales = [dict(rep_name=row[0], amount=row[1]) for row in cur.fetchall()]
     g.db.close()
-    return render_template('hello.html', sales=sales)
+    return render_template('tasks.html')
 
 @app.route('/log', methods=['GET', 'POST'])
 def log():

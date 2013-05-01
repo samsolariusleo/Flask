@@ -5,7 +5,7 @@
     <ignored path="Flask.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.py" changelist="023d40a4-2faa-47d3-82bc-0851de1e765f" time="1366091555578" ignored="false" />
-    <file path="/Flask.py" changelist="023d40a4-2faa-47d3-82bc-0851de1e765f" time="1367384652320" ignored="false" />
+    <file path="/Flask.py" changelist="023d40a4-2faa-47d3-82bc-0851de1e765f" time="1367393089725" ignored="false" />
     <file path="/hello.html" changelist="023d40a4-2faa-47d3-82bc-0851de1e765f" time="1367384839923" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="Flask.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="24" selection-start="883" selection-end="883" vertical-scroll-proportion="0.7810811">
+            <state line="43" column="40" selection-start="945" selection-end="945" vertical-scroll-proportion="0.5972973">
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -296,7 +296,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -306,7 +306,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32767403" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32767403" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -460,7 +460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Flask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="24" selection-start="883" selection-end="883" vertical-scroll-proportion="0.7810811">
+        <state line="43" column="40" selection-start="945" selection-end="945" vertical-scroll-proportion="0.5972973">
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
